@@ -42,7 +42,26 @@ button {
 body {
     background-color: lightgrey;
 }
-
+/*
 div {
     background-color: white;
+    text-align: center;
+    border-image: fill;
+}
+*/
+h2 {
+    color: #522b83
+}
+
+#Home.tabcontent {
+    background-color: white;
+    text-align: center;
+    
+}
+
+#Home.tabcontent p,h3{
+    text-align: left;
+}
+#Home.tabcontent a{
+    cursor: pointer;
 }
