@@ -36,4 +36,13 @@
 
 button {
     color: white;
+    font-size: 14pt;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+div {
+    background-color: white;
 }
