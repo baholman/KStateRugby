@@ -7,7 +7,7 @@
 </head>
 <body>
     <div class="tab">
-                <button class="tablinks" onclick="openTab(event, 'Home')">Home</button>
+                <button class="tablinks" onclick="openTab(event, 'Home')" id="defaultOpen">Home</button>
                 <button class="tablinks" onclick="openTab(event, 'Schedule')">Schedule</button>
                 <button class="tablinks" onclick="openTab(event, 'Join the Team')">Join the Team</button>
     </div>
@@ -26,8 +26,6 @@
     </table>
 
     <div id="Home" class="tabcontent">
-        <h3>Home</h3>
-        <p>Home</p>
         <h2>This is the official page for K-State Rugby</h2>
         <p>This is the official page for K-State Rugby</p>
         <p>This is the start of the page</p>
@@ -40,6 +38,10 @@
         <h3>Join the Team</h3>
         <p>Join</p>
     </div>
+
+    <script>
+        document.getElementById("defaultOpen").click();
+    </script>
 
 </body>
 </html>
