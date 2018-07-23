@@ -13,4 +13,10 @@ function openTab(evt, tabName){
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
 
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  }
