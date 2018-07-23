@@ -19,4 +19,4 @@ function openTab(evt, tabName){
 
 window.onbeforeunload = function () {
     window.scrollTo(0, 0);
-  }
+}
