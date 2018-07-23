@@ -52,16 +52,27 @@ div {
 h2 {
     color: #522b83
 }
+
 /*
 #Home.tabcontent {
     background-color: white;
     text-align: center;
     
-}*/
+}
 
 #Home.tabcontent p,h3{
     text-align: left;
 }
-#Home.tabcontent a{
+
+
+#Join\00a0the\00a0Team.tabcontent p,h3{
+    text-align: left;
+}*/
+
+a{
     cursor: pointer;
+}
+
+div p,h3{
+    text-align: left;
 }
