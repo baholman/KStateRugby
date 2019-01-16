@@ -1,8 +1,8 @@
 /* Style the tab */
 .tab {
     overflow: hidden;
-    border: 1px solid#ccc;
-    background-color: #522b83;
+    border: 1px solid#D1D1D1;
+    background-color: #512888;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -18,40 +18,40 @@
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-    background-color: #ddd;
+    background-color: #A7A7A7;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-    background-color: #ccc;
+    background-color: #D1D1D1;
 }
 
 /* Style the tab content */
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #D1D1D1;
     border-top: none;
 }
 
 button {
-    color: white;
+    color: #FFFFFF;
     font-size: 14pt;
 }
 
 body {
-    background-color: lightgrey;
+    background-color: #D1D1D1;
     font-size: 1.1em;
 }
 
 div {
-    background-color: white;
+    background-color: #FFFFFF;
     text-align: center;
     border-image: fill;
 }
 
 h2 {
-    color: #522b83
+    color: #512888
 }
 
 /*
@@ -72,9 +72,22 @@ h2 {
 
 a{
     cursor: pointer;
-    color: blue;
+    color: #000000;
 }
 
 div p,h3{
     text-align: left;
+}
+
+.column {
+    float: left;
+	width: 50%;
+	text-align: center;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+   content: "";
+   display: table;
+   clear: both;
 }
